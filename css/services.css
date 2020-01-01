@@ -1,0 +1,91 @@
+.what .display-4 {
+    color: #17a2b8;
+    webkit-tap-highlight-color: #222;
+    text-align: center;
+}
+.what .display-4:after {
+    content: '';
+    display: block;
+    width: 75%;
+    height: 0.2rem;
+    margin: 1rem auto;
+    margin-bottom: 2rem;
+    background: #17a2b8;
+}
+.what .display-5 {
+    color: #17a2b8;
+    webkit-tap-highlight-color: #222;
+    text-align: center;
+}
+.services .card{
+    border: none;
+    /*border: 2px solid transparent;*/
+    background-color: white;
+    border-radius: 40px;
+}
+.services .logo{
+    background-image: url("../image/services/space-rocket.svg");
+    height: 200px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    background-position: center;
+}
+.services .logo:hover{
+    background-color: white;
+}
+.services .branding{
+    background-image: url("../image/services/big-light-bulb.svg");
+    height: 200px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    background-position: center;
+}
+.services .branding:hover{
+    background-color: white;
+}
+.services .strategy{
+    background-image: url("../image/services/marketing-seminar.svg");
+    height: 200px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    background-position: center;
+}
+.services .strategy:hover{
+    background-color: white;
+}
+.services .UI{
+    background-image: url("../image/services/web-design.svg");
+    height: 200px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    background-position: center;
+}
+.services .UI:hover{
+    background-color: white;
+}
+.services .development{
+    background-image: url("../image/services/responsive-marketing.svg");
+    height: 200px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    background-position: center;
+}
+.services .development:hover{
+    background-color: white;
+}
+.services .mobile{
+    background-image: url("../image/services/custom-coding.svg");
+    height: 200px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    background-position: center;
+}
+.services .mobile:hover{
+    background-color: white;
+}
